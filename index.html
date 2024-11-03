@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+   
+<body>
+    <div class="title">
+        <h1>Roll the dice!</h1>
+    </div>
+
+    <div class="container">
+        <div class = "player1">
+            <P class="firstPlayer">Player 1</P>
+            <div class="imageFirstPlayer">
+                <img src="./images/dice6.png" alt="dice1_first_player" id="photo_dice1_firstPlayer"/>
+                <img src="./images/dice6.png" alt="dice2_first_player" id="photo_dice2_firstPlayer"/>
+            </div>
+        </div>
+
+        <div class = "player2">
+            <P class="secondPlayer">Player 2</P>
+            <div class="imageSecondPlayer">
+                <img src="./images/dice6.png" alt="dice1_second_player" id="photo_dice1_secondPlayer"/>
+                <img src="./images/dice6.png" alt="dice2_second_player" id="photo_dice2_secondPlayer"/>
+            </div>
+        </div> 
+        
+    </div>
+    <div class="buttons">
+        <button id="rollTheDiceButton">Roll the dice!</button>
+        <button id="restartButton">Restart</button>   
+    </div>  
+    <div class="score">
+        <p id="scorP1">Score Player 1</p>
+        <p id="score1">0</p>
+
+        <p id="scorP2">Score Player 2</p>
+        <p id="score2">0</p>
+    </div>
+    <footer>
+        © Stefan Daniel Danca 2024 || Anjela's Course on Udemy || Dice Challenge - DOM
+        
+    </footer>
+
+    
+    <script src="dice_game.js" charset="utf-8"></script>
+</body>
+</html>
